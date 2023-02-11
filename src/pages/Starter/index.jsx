@@ -1,13 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import { Button } from '@/components'
+import { Wrapper } from './styled'
 import './styles.css'
 
 function Starter() {
-    
-function Continue() {
 
-}
-
-    return(
+    return (
         <section className='section--start'>
             <img className='start__logo' src="" alt="" />
             <img className='start__img' src="" alt="" />
@@ -19,12 +16,12 @@ function Continue() {
                 <button className='button--elips'></button>
                 <button className='button--elips'></button>
             </div>
-            <div className='start__div--3'>
-                <button id='buttonContinue' onClick={Continue} className='button--fill'>Continue</button>
-                <a className='button--border'>Cadastre-se</a>
-            </div>
+            <Wrapper gap={10}>
+                <Button to='/login'>Começar</Button>
+                <Button to='/Home' variant='secondary'>Cadastre-se</Button>
+            </Wrapper>
         </section>
-    )   
+    )
 }
 
 export default Starter
