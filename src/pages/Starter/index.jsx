@@ -4,17 +4,16 @@ import './styles.css'
 function Starter() {
     
 function Continue() {
-    let buttonContinue = document.getElementById("buttonContinue")
-    buttonContinue.textContent = "Começar"
+
 }
 
     return(
         <section className='section--start'>
-            <h1></h1>
+            <img className='start__logo' src="" alt="" />
             <img className='start__img' src="" alt="" />
             <div className='start__div--1'>
-                <p className='start__p'></p>
-                <p className='start__p'></p>
+                <p className='start__p p--title'>Produtos com qualidade garantida</p>
+                <p className='start__p'>Produtos feitos a mão com a melhor qualidade</p>
             </div>
             <div className='start__div--2'>
                 <button className='button--elips'></button>

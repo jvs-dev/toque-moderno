@@ -1,10 +1,29 @@
 .section--start {
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     padding: 24px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-between;
 }
+
+.start__p {
+    color: var(--black);    
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    line-height: 110%;
+    font-weight: 400;
+}
+
+.start__p.p--title {
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
 
 .start__div--3 {
     display: flex;
