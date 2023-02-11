@@ -1,11 +1,11 @@
-import './styles.css'
+import { Logo, Loader } from '@components'
+import { LoadingWrapper } from './styled'
 
-function LoadingWindow() {
-    return (
-        <section className='loading-window'>
-            <div className='loader'></div>
-        </section>
-    )
+export const LoadingWindow = () => {
+    return <LoadingWrapper >
+        <Logo />
+        <Loader />
+    </LoadingWrapper>
 }
 
 export default LoadingWindow
