@@ -1,0 +1,14 @@
+:root {
+    --brown: #4E200C;
+    --gray: #D9D9D9;
+    --orange: #FF6300;
+    --light-orange: #FF9848;
+    --dark-orange: #E65900;
+    --bisque: #FCEEE5;
+    --white: #fff;
+    --black: #272727;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
